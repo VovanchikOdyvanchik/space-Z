@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, .link, .btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+.container {
+    margin: 0 12 5%;
+}
+.site-header{
+    background-color: #222222;
+}
+.header-nav{
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+    column-gap: 6.25%;
+}
+.nav-list, .contact-us{
+    display: flex;
+}
+.nav-list{
+    column-gap: 30px;
+}
+.nav-item{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    opacity: 0.8;
+}
+.contact-us{
+    margin-left: auto;
+    column-gap: 24px;
+}
+.icon{
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+.icon-mail{
+    background: url("../img/mail-icon\ 1.png") no-repeat;
+}
+.icon-phone{
+    background: url("../img/phone-icon\ 1.png") no-repeat;
+}
+.about-us{
+    background: url("../img/moon-rocket\ 1.png") no-repeat top right;
+}
+.about-wrap{
+    width: 25px;
+    padding: 113px 0 px 180px 13.125%;
+    min-width: 254px;
+}
+.about-title{
+    font-family:'Courier New', Courier, monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 51px;
+min-width: 244px;
+color: #FFFFFF;
+}
+.abot-text{
+    margin: 30px 0px 55px;
+}
+.btn{
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 240px;
+    padding: 17px 22px 17px 38px;
+    color: #000;
+}
+.btn::after{
+content: "";
+display: block;
+width: 19px;
+height: 16px;
+float:right;
+}
+.btn-yellow{
+    background:  #FFCB06;
+    
+}
+.btn::after{
+    background: url("../img/right-arrow-dark\ 1.png");
+}
+.advantages {
+    background: #131313;
+    padding: 85px 0 70px;
+}
+.advantages-list{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-item{
+    flex-basis: 170px;
+}
+.advantage-item::before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 34px;
+}
+.advantage-rocket::before{
+    background: url("../img/advantage-icon-11.png") no-repeat;
+}
+.advantage-food::before{
+    background: url("../img/advantage-icon-21.png") no-repeat;
+}
+.advantage-pilot::before{
+    background: url("../img/advantage-icon-31.png") no-repeat;
+}
+.advantage-moon::before{
+    background: url("../img/advantage-icon-41.png") no-repeat;
+}
+.content{
+    color: #000;
+    padding: 80px 0 126px;
+    display: flex;
+}
+.columns-container{
+    display: flex;
+    column-gap: 80px;
+}
+.lead{
+    font-family: 'Courier New';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 27px;
+
+color: #000000;
+}
